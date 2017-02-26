@@ -7,4 +7,21 @@ html
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
   body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        ul.nav.navbar-nav.navbar-center
+          li.active
+            a href="#" 
+              | Subcribe Now
+        ul.nav.navbar-nav.navbar-right
+          li
+            a href="#"
+              | How it works
+          li
+            a href="#"
+              | About
+          li
+            a href="#"
+              | Contact
+        
     == yield
